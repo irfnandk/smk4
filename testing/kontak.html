@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Kontak | SMK Negeri 4 Bojonegoro</title>
+  <link rel="stylesheet" href="kontak.css">
+</head>
+<body>
+
+<nav>
+  <a href="profil.html">Profil</a>
+  <a href="kontak.html">Kontak</a>
+  <a href="daftar.html">Daftar</a>
+  <a href="info.html">Info</a>
+</nav>
+
+<section class="card">
+  <h2>Kontak Kami</h2>
+
+  <form onsubmit="kirimPesan(event)">
+    <input type="text" id="nama" placeholder="Nama Lengkap">
+    <input type="email" id="email" placeholder="Email">
+    <textarea id="pesan" placeholder="Tulis pesan..."></textarea>
+    <button type="submit">Kirim</button>
+  </form>
+
+  <p id="notif"></p>
+
+  <hr>
+
+  <h3>Info Sekolah</h3>
+  <p>📍 Bojonegoro, Jawa Timur</p>
+  <p>📞 (0353) 123456</p>
+  <p>📧 smkn4bojonegoro@email.com</p>
+</section>
+
+<script src="kontak.js"></script>
+</body>
+</html>

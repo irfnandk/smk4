@@ -1,0 +1,32 @@
+.info-list {
+  list-style: none;
+  padding: 0;
+}
+
+.info-list li {
+  background: #f4f4f4;
+  margin: 10px 0;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.info-list li:hover {
+  background: #e0e0e0;
+}
+
+.badge {
+  background: red;
+  color: white;
+  padding: 3px 6px;
+  font-size: 12px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.detail {
+  margin-top: 15px;
+  padding: 10px;
+  background: #eef;
+  border-radius: 6px;
+}

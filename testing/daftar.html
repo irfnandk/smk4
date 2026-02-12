@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Pendaftaran | SMK Negeri 4 Bojonegoro</title>
+  <link rel="stylesheet" href="daftar.css">
+</head>
+<body>
+
+<nav>
+  <a href="profil.html">Profil</a>
+  <a href="kontak.html">Kontak</a>
+  <a href="daftar.html">Daftar</a>
+  <a href="info.html">Info</a>
+</nav>
+
+<section class="card">
+  <h2>Form Pendaftaran Siswa Baru</h2>
+
+  <form onsubmit="daftar(event)">
+    <input type="text" id="nama" placeholder="Nama Lengkap">
+    <input type="text" id="asal" placeholder="Asal Sekolah">
+    
+    <select id="jurusan">
+      <option value="">Pilih Jurusan</option>
+      <option>RPL</option>
+      <option>TKJ</option>
+      <option>TBSM</option>
+      <option>OTKP</option>
+    </select>
+
+    <input type="number" id="hp" placeholder="No HP">
+    <button type="submit">Daftar</button>
+  </form>
+
+  <p id="notif"></p>
+</section>
+
+<script src="daftar.js"></script>
+</body>
+</html>
